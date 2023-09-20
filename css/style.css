@@ -1,0 +1,287 @@
+*{
+    padding: 0px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    border: border-box;
+    background-color: #222020;
+}
+
+/* navbar css properties */
+
+.navbar {
+    height: 70px;
+    background-color: #FFB900;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly; /*used for spreading items evenly */
+    border-radius: 20px;
+}
+
+.nav-logo-name{
+    background-color: #FFB900;
+    display: flex;
+}
+
+.nav-logo-name:hover{
+    cursor: pointer;
+}
+
+/* for logo  */
+
+.nav-logo {
+    background-color: #FFB900;
+    height: 50px;
+    width: 50px;
+}
+
+.logo{
+    background-image: url("../images/logo.jpg");
+    background-size: cover;
+    height: 50px;
+    width: 50px;
+    border-radius: 50px; /*for round logo*/
+    border: 2px solid black;
+}
+
+/* for heading  */
+
+.nav-name{
+    
+    background-color: #FFB900;
+    color: #222020;
+    font-size: 1.12rem; /*the value in rem is used in resposiveness */
+    margin-left: 15px;
+    font-weight:bolder;
+}
+.nav-heading{
+    
+    background-color: #FFB900;
+}
+
+/* for Main Navigation  */
+
+.nav-main{
+    background-color: #FFB900;
+    color: #746767;
+    font-size: 1rem;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 60%;
+    height: 40px;
+    
+}
+
+.nav-main a{
+    background-color: #FFB900;
+}
+
+.nav-main a:hover{
+    color: #df5703;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+    
+
+.nav-main p{
+    background-color: #FFB900;
+    color: #222020;
+    font-size:xx-large;
+    width: 2px;
+}
+
+/* for sign up and login buttons */
+
+.nav-buttons{
+    background-color: #FFB900;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 220px;
+}
+
+.nav-buttons button{
+    background-color: #222020;
+    color: #FFB900;
+    width: 90px;
+    height: 40px;
+    border: none;
+    font-size: 0.85rem;
+    font-weight: 550;
+    border-radius: 20px;
+}
+
+.nav-buttons button:hover{
+    background-color: #000000;
+    color: #ff9900;
+    cursor: pointer;
+    border: 2px solid #df5703;
+}
+
+/* for hero section CSS */
+
+.hero-page{
+    color: #FFB900;
+    font-size: 4rem;
+    background-color: #222020;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+/* for main page CSS */
+
+.main-section{
+    color: #bbbbbb;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    /* background-color: #3D3939; */
+}
+
+.box{
+    /* border: 2px solid black; */
+    height: 500px;
+    width: 25%;
+    background-color: #3D3939;
+    padding: 20px 0px 15px;
+    margin: 15px;
+    border-radius: 10px;
+}
+
+.box-img{
+    background-color: #3D3939;
+    height: 300px;
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.box-content{
+    background-color: #3D3939;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.box-content h2{
+    background-color: #3D3939;
+}
+
+
+.box-content p {
+    font-size: 1.5rem;
+    background-color: #3D3939;
+    color: #f57526;
+    text-align: center;
+}
+
+
+.box-buttons{
+    background-color: #3D3939;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    /* width: 180px; */
+}
+
+.box-buttons button{
+    background-color: #222020;
+    color: #FFB900;
+    width: 100px;
+    height: 40px;
+    border: none;
+    font-size: 1rem;
+    font-weight: 550;
+    border-radius: 20px;
+}
+
+.box-buttons button:hover{
+    border:2px solid #FFB900;
+    background-color: #000000;
+    color: #ff9900;
+    cursor: pointer;
+}
+
+/* for footer  */
+
+
+
+.foot-panel1{
+    background-color: #FFB900;
+    border: 100px;
+    height: 300px;
+    display: flex;
+    justify-content: space-evenly;
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+}
+
+.foot-panel1 p{
+    font-size: 1.2rem;
+    color: rgb(138, 0, 103);
+    font-weight: bolder;
+    background-color: #FFB900;
+   
+}
+
+ul {
+    background-color: #FFB900;
+    margin-top: 20px;
+}
+
+ul a {
+    background-color: #FFB900;
+    display: block;
+    font-size: 1.03rem;
+    margin-top: 10px;
+    color: #000000;
+}
+
+.foot-social{
+    text-align: center;
+    /* align-items: center;
+    justify-content: center; */
+    background-color: #FFB900;
+}
+.foot-social img{
+    cursor: pointer;
+    background-color: #FFB900;
+}
+
+.foot-para{
+    background-color: #FFB900;
+}
+.foot-para p{
+    color: #000000;
+    font-size: 1.03rem;
+    display: block;
+    font-weight: 250;
+}
+
+
+.foot-panel2{
+    background-color: #FFB900;
+    color:#3D3939;
+    height: 80px;
+    font-size: 1rem;
+    text-align: center;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.pages{
+    background-color: #FFB900;
+    padding-top: 25px;
+}
+
+.pages a{
+    background-color: #FFB900;
+}
+
+.copyright{
+    background-color: #FFB900;
+    padding-top: 5px;
+    
+}
+
